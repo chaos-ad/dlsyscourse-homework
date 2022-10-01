@@ -1,0 +1,4 @@
+pytest
+git+https://github.com/dlsyscourse/mugrade.git#egg=mugrade
+pybind11
+numdifftools
