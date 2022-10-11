@@ -21,7 +21,8 @@ build:
 run command:
     docker run --rm -it \
         --network host \
-        -v "${PWD}/hw0:/app/hw0" \
+        -v "${PWD}/hw0:/home/$(id -un)/code/dlsyscourse-homework/hw0" \
+        -v "${PWD}/hw1:/home/$(id -un)/code/dlsyscourse-homework/hw1" \
         --env-file {{env_file}} \
         --name {{docker_instance_name}} \
         {{docker_image_name}} \
@@ -32,7 +33,8 @@ shell: (run '/bin/bash')
 start:
     docker run -d \
         --network host \
-        -v "${PWD}/hw0:/app/hw0" \
+        -v "${PWD}/hw0:/home/$(id -un)/code/dlsyscourse-homework/hw0" \
+        -v "${PWD}/hw1:/home/$(id -un)/code/dlsyscourse-homework/hw1" \
         --env-file {{env_file}} \
         --name {{docker_instance_name}} \
         {{docker_image_name}} \

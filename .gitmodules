@@ -1,3 +1,6 @@
 [submodule "hw0"]
 	path = hw0
 	url = git@github.com:chaos-ad/dlsyscourse-hw0.git
+[submodule "hw1"]
+	path = hw1
+	url = git@github.com:chaos-ad/dlsyscourse-hw1.git
