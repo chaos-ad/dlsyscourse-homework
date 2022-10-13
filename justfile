@@ -1,5 +1,5 @@
 env_file := 'my.env'
-jupyter_port := '10000'
+jupyter_port := '10005'
 jupyter_token := 'mysecret'
 docker_image_name := 'dlsyscourse:dev'
 docker_instance_name := 'dlsyscourse'
