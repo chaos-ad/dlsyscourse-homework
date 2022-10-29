@@ -1,8 +1,8 @@
 env_file := 'my.env'
 jupyter_port := '10005'
 jupyter_token := 'mysecret'
-docker_image_name := 'dlsyscourse:dev'
-docker_instance_name := 'dlsyscourse'
+docker_image_name := 'anatoly-dlsyscourse:dev'
+docker_instance_name := 'anatoly-dlsyscourse'
 
 ##############################################################################
 
@@ -23,6 +23,7 @@ run command:
         --network host \
         -v "${PWD}/hw0:/home/$(id -un)/code/dlsyscourse-homework/hw0" \
         -v "${PWD}/hw1:/home/$(id -un)/code/dlsyscourse-homework/hw1" \
+        -v "${PWD}/hw2:/home/$(id -un)/code/dlsyscourse-homework/hw2" \
         --env-file {{env_file}} \
         --name {{docker_instance_name}} \
         {{docker_image_name}} \
@@ -35,6 +36,7 @@ start:
         --network host \
         -v "${PWD}/hw0:/home/$(id -un)/code/dlsyscourse-homework/hw0" \
         -v "${PWD}/hw1:/home/$(id -un)/code/dlsyscourse-homework/hw1" \
+        -v "${PWD}/hw2:/home/$(id -un)/code/dlsyscourse-homework/hw2" \
         --env-file {{env_file}} \
         --name {{docker_instance_name}} \
         {{docker_image_name}} \
