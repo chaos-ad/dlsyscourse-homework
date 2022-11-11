@@ -22,14 +22,7 @@ RUN apt-get update \
         gdb \
     && rm -rf /var/lib/apt/lists/*
 
-# Install jupyterlab and notebook
-RUN pip install --no-cache-dir "notebook==6.4.12" && \
-    pip install --no-cache-dir 'ipywidgets==7.7.2' && \
-    jupyter nbextension enable --py widgetsnbextension
-
-# pip install --no-cache-dir --upgrade --no-deps "git+https://github.com/dlsyscourse/mugrade.git" & \
-# pip install --no-cache-dir "pybind11" & \
-# pip install --no-cache-dir "numdifftools"
+#############################################################################
 
 # Install pip requirements
 COPY requirements.txt /tmp/requirements.txt
