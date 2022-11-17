@@ -9,7 +9,7 @@
             "type": "python",
             "request": "launch",
             "cwd": "${workspaceFolder}/hw3",
-            "program": "${workspaceFolder}/hw3/tests/my_tests.py",
+            "program": "${workspaceFolder}/hw3/tests/debug.py",
             "console": "integratedTerminal",
             "justMyCode": false
         },
