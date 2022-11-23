@@ -10,3 +10,6 @@
 [submodule "hw3"]
 	path = hw3
 	url = https://github.com/chaos-ad/dlsyscourse-hw3.git
+[submodule "hw4"]
+	path = hw4
+	url = https://github.com/chaos-ad/dlsyscourse-hw4.git
