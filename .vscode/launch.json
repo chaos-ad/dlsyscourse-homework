@@ -8,8 +8,8 @@
             "name": "Python Debug",
             "type": "python",
             "request": "launch",
-            "cwd": "${workspaceFolder}/hw3",
-            "program": "${workspaceFolder}/hw3/tests/debug.py",
+            "cwd": "${workspaceFolder}/hw4",
+            "program": "${workspaceFolder}/hw4/tests/debug.py",
             "console": "integratedTerminal",
             "justMyCode": false
         },
@@ -17,7 +17,7 @@
             "name": "(gdb) Attach",
             "type": "cppdbg",
             "request": "attach",
-            "program": "/home/ec2-user/SageMaker/.cs/conda/envs/codeserver_py39/bin/python",
+            "program": "/usr/bin/python3",
             "MIMode": "gdb",
             "processId": "${command:pickProcess}",
             "setupCommands": [
