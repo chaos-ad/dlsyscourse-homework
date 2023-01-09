@@ -2,4 +2,11 @@ pytest
 git+https://github.com/dlsyscourse/mugrade.git#egg=mugrade
 pybind11
 numdifftools
+requests
+numpy
+pandas
 python-dotenv
+torch
+awswrangler
+pyyaml
+tabulate

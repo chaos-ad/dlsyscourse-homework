@@ -8,8 +8,8 @@
             "name": "Python Debug",
             "type": "python",
             "request": "launch",
-            "cwd": "${workspaceFolder}/hw4",
-            "program": "${workspaceFolder}/hw4/tests/debug.py",
+            "cwd": "${workspaceFolder}/final",
+            "program": "${workspaceFolder}/final/tests/debug.py",
             "console": "integratedTerminal",
             "justMyCode": false
         },
